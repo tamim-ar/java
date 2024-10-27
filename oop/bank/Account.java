@@ -1,4 +1,4 @@
-package bank;
+package oop.bank;
 
 public class Account {
 
