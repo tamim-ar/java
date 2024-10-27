@@ -8,4 +8,14 @@ public class Student {
         System.out.println(this.name);
         System.out.println(this.age);
     }
+
+    Student(Student student2) {
+        System.out.println("Constructor Called.");
+        this.name = student2.name;
+        this.age = student2.age;
+    }
+
+    Student(){
+        
+    }
 }
