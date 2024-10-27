@@ -3,7 +3,7 @@ import java.util.*;
 public class GuessNumber {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int number = (int) (Math.random() * 100);  // Generate a random number between 0 and 99
+        int number = (int) (Math.random() * 100);  
         System.out.println("A number has been generated between 0 and 99. Try to guess it!");
 
         int num;  
@@ -18,6 +18,6 @@ public class GuessNumber {
             } else {
                 System.out.println("Congratulations! You guessed the number: " + number);
             }
-        } while (num != number);  /
+        } while (num != number); 
     }
 }
