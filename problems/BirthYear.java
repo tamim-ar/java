@@ -10,7 +10,9 @@ public class BirthYear {
         TotalMonth = CurrentMonth - BirthMonth;
         TotalDate = CurrentDate - BirthDate;
 
-        if (BirthYear > CurrentYear || BirthYear == CurrentYear && BirthMonth > CurrentMonth || BirthYear == CurrentYear && CurrentMonth == CurrentMonth && BirthDate > CurrentDate || BirthMonth >= 12 || BirthDate >= 31 || CurrentMonth >= 12 || CurrentDate >= 31){
+        if (BirthYear > CurrentYear || BirthYear == CurrentYear && BirthMonth > CurrentMonth
+                || BirthYear == CurrentYear && BirthMonth == CurrentMonth && BirthDate > CurrentDate
+                || BirthMonth >= 12 || BirthDate >= 31 || CurrentMonth >= 12 || CurrentDate >= 31) {
             System.out.println("invalid date");
             System.exit(0);
         }
