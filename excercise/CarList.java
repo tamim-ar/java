@@ -23,4 +23,9 @@ public class CarList {
 
         System.out.println("Current queue: " + queue);
     }
+
+    public void add(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
 }
