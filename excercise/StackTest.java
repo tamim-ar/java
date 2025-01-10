@@ -1,5 +1,3 @@
-import java.util.Stack;
-
 public class StackTest {
     private int[] stackArray;
     private int top;
