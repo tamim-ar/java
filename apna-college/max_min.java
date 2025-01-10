@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class max_min{
     public static void main(String[] args) {
         

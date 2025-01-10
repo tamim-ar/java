@@ -17,6 +17,7 @@ public class break_continue {
                 continue;
             }
             System.out.println(i);
+            scan.close();
         }
     }
 }

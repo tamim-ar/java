@@ -29,5 +29,6 @@ public class all_loop {
             System.out.println(i);
             i++;
         }while(i<num);
+        scan.close();
     }
 }

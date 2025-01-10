@@ -19,5 +19,6 @@ public class GuessNumber {
                 System.out.println("Congratulations! You guessed the number: " + number);
             }
         } while (num != number); 
+        scan.close();
     }
 }

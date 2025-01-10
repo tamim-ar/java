@@ -13,5 +13,6 @@ public class inupt_sc {
 
         String name1 = sc.nextLine();
         System.out.print(name1);
+        sc.close();
     }
 }
