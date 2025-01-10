@@ -2,7 +2,7 @@ package problems;
 
 public class BirthYear {
     public static void main(String[] args) {
-        int BirthYear = 20034, BirthMonth = 10, BirthDate = 19;
+        int BirthYear = 1934, BirthMonth = 10, BirthDate = 19;
         int CurrentYear = 2024, CurrentMonth = 11, CurrentDate = 30;
         int TotalYear, TotalMonth, TotalDate;
 
