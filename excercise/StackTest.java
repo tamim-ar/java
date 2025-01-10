@@ -56,7 +56,7 @@ public class StackTest {
 
     // Example usage
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        StackTest stack = new StackTest();
         stack.push(10);
         stack.push(20);
         System.out.println(stack.peek()); // Output: 20
