@@ -1,5 +1,4 @@
 package oop.two;
-import oop.bank.*;
 
 public class Main {
     public static void main(String[] args) {
