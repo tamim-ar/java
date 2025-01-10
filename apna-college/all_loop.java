@@ -2,7 +2,7 @@ import java.util.*;
 
 public class all_loop {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
 
         System.out.println("For Loop:");
         int i = 0;
@@ -29,6 +29,6 @@ public class all_loop {
             System.out.println(i);
             i++;
         }while(i<num);
-        scan.close();
+        }
     }
 }
