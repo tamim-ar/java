@@ -17,5 +17,6 @@ public class ConsecutiveDuplicates {
         }
         System.out.println(name);
         System.out.println(name1);
+        scan.close();
     }
 }

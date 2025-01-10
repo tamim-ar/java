@@ -20,5 +20,6 @@ public class Input10UniqeNumber {
             }
         }
         System.out.println(Arrays.toString(a));
+        scan.close();
     }
 }
