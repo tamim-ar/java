@@ -2,7 +2,7 @@ import java.util.*;
 
 public class BankingSystem {
 
-    // --- Account Class ---
+    --- Account Class ---
     static class Account {
         private String accountId;
         private String accountHolderName;
